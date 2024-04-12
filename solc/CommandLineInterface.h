@@ -22,8 +22,8 @@
  */
 #pragma once
 
+// Solidity compiler and EVM related headers
 #include <solc/CommandLineParser.h>
-
 #include <libevmasm/AbstractAssemblyStack.h>
 #include <libevmasm/EVMAssemblyStack.h>
 #include <libsolidity/interface/CompilerStack.h>
@@ -33,9 +33,13 @@
 #include <libsolidity/interface/UniversalCallback.h>
 #include <libyul/YulStack.h>
 
+// Standard library headers
 #include <iostream>
 #include <memory>
 #include <string>
+
+// Forward declarations and minimal includes can be added here if necessary
+
 
 namespace solidity::frontend
 {
